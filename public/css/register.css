@@ -1,0 +1,88 @@
+/* CSS */
+.register-form {
+  max-width: 250px;
+  margin: 20px auto 0; /* Tambahkan margin atas sebesar 20px */
+  padding: 20px;
+  background-color: rgba(242, 242, 242, 0); 
+  border-radius: 5px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 20px; /* Atur ukuran teks h2 */
+  text-align: center;
+  margin-bottom: 20px;
+  color: aquamarine;
+  border: #45a049;
+
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  font-size: 12px; /* Atur ukuran teks label */
+  display: block;
+  color: #ccc;
+  margin-bottom: 5px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* color: white; */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-top: 15px;
+  background-color: rgb(125, 235, 255);
+  color: rgb(33, 61, 62);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(63, 143, 157, 0);
+  text-decoration: underline
+}
+.register-form button {
+  margin-top: 10px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+label{
+  font-size: 10px;
+}
+body{
+    
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+p {
+  font-size: 14px;
+  color: aquamarine;
+}
+button {
+  font-size: 16px;
+}
+.link {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #45a049;
+  text-decoration: underline;
+}
